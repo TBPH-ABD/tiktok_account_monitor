@@ -23,11 +23,11 @@ CONFIG = {
 
     # إعدادات Twilio (أضفها إذا اخترت twilio)
     "twilio": {
-        "account_sid": "ACd432e670df7b13a1f8fdad602ad816a1",
-        "auth_token":  "0331afa590b8169534c2055983348a15",
-        "from_number": "whatsapp:+14155238886",   # رقم Twilio Sandbox
-        "to_number":   "whatsapp:+967779680748",  # رقمك مع كود الدولة
-    },
+    "account_sid": os.environ.get("TWILIO_SID"),
+    "auth_token":  os.environ.get("TWILIO_TOKEN"),
+    "from_number": "whatsapp:+14155238886",
+    "to_number":   os.environ.get("TWILIO_TO"),
+},
 
     # كم دقيقة بين كل فحص
     "interval_minutes": 5   ,
