@@ -16,7 +16,7 @@ from typing import Optional, Tuple
 # ─── الإعدادات ────────────────────────────────────────────────────────────────
 CONFIG = {
     # اسم حساب تيك توك بدون @
-    "tiktok_username": "salah.abd748",
+    "tiktok_username": "haneen5928",
 
     # خيار الإشعارات: "twilio" أو "console" (للاختبار)
     "notification_method": "twilio",
@@ -30,7 +30,7 @@ CONFIG = {
 },
 
     # كم دقيقة بين كل فحص
-    "interval_minutes": 5   ,
+    "interval_minutes": 10 ,
 
     # مسار قاعدة البيانات
     "db_path": "tiktok_monitor.db",
