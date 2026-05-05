@@ -1,4 +1,3 @@
-playwright==1.56.0
-beautifulsoup4
 requests
 twilio
+schedule
