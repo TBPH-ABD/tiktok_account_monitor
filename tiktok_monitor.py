@@ -353,7 +353,7 @@ def check_and_alert(conn, current: dict) -> None:
 
     if alerts:
         full_msg = (
-            f"🔔 تنبيه تيك توك — @{username}\n"
+            f"🔔 Updating — @{username}\n"
             f"{'─'*35}\n"
             + "\n\n".join(alerts) +
             f"\n{'─'*35}\n"
